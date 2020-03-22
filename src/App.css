@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font: helvatica;
+}
+
+.container{
+  width:80%;
+  margin: 0 10% 0 10%;
+  text-align: start;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > h2{
+  margin: 30px 0 50px 0;
+  font-size:40px;
+  text-align: center;
+  color: #77204B;
+}
+
+.allLinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+a{
+  font-size: 20px;
+  text-decoration:none;
+  color: #77204B;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:#77204B;
+}
+
+.display-quotes{
+  margin-top: 10px;
+  display: flex; 
+  flex-direction: column;
+  position: relative;
+}
+
+.quote>h3{
+  font: 30px helvatica;
+  color:  rgb(241, 216, 236);
+  margin:20px 20px 10px 20px;
+  
+}
+
+.quote>h5{
+  font: 15px helvatica;
+  color:  rgb(241, 216, 236);
+  margin:5px 10px 5px 20px;
+  text-align: left;
+}
+
+.quote{
+  background-color: rgb(119, 32, 75);
+  padding:40px;
+  margin-bottom: 20px;
+  border-radius: 80px;
+  justify-content: center;
+}
+
+.buttons{
+  position: absolute;
+  margin:300px 0 0 70%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.buttons-1{
+  margin-left:86%;
+}
+.button-style{
+  background-color: #77204B;
+  border-radius: 40px;
+  padding:10px 15px 10px 15px;
+  text-align: center;
+  color:rgb(241, 216, 236);
+  font-size: 18px;
+  width: 150px;
+}
+
+.next-button{
+  margin-right:40px;
+}
+
+.save-button{
+  margin-right:20px;
+}
+
+
+.save-button:disabled{
+  margin-right:20px;
+  background-color: rgb(167, 92, 129);
+}
+
+.outline{
+  background-color: rgb(119, 32, 75);
+  border-radius: 40px;
+  padding:20px;
+}
+
+.form-row{
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.add-change{
+  align-items: flex-start;
+}
+
+.form-row label{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(241, 216, 236);
+}
+
+.form-row input[type="text"]{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding:10px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.form-row textarea{
+  border-radius: 10px;
+  padding:10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  height: 120px;
+}
+
+.form-row:last-of-type{
+  margin-bottom: 0;
+}
+
+.submit-button{
+  text-align: center;
+  align-self: center;
+}
+
+
+
+.listing-quotes{
+  background-color: rgb(119, 32, 75);
+  padding:20px;
+  border-radius: 40px;
+}
+
+.each-quote{
+  margin: 20px;
+}
+
+.text-style{
+  color:rgb(241, 216, 236);
+  font-size: 16px;
+  margin: 20px;
+}
+
+.text-style h5{
+  color:rgb(241, 216, 236);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.small-button-style{
+  background-color: rgb(241, 216, 236);
+  border-radius: 40px;
+  padding:5px 10px 5px 10px;
+  text-align: center;
+  color:#77204B;
+  font-size: 14px;
+  width: 75px;
+}
+
+.list-buttons{
+  margin:20px;
+}
+
+.edit-button{
+  margin-left: 0px;
+}
+
+
